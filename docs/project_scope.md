@@ -30,19 +30,19 @@ The development of PokePort aims to alleviate these problems.
 
 **Value tracking** - Obtain current market value via manual input or auto-fetch. Calculate and display: profit/loss per card, total invested value vs total value, ROI%
 
-**Grading estimator (Manual input)** - User inputs via Y/N scales: centering, whitening, scratches, corners (good/bad). Logic tree outputs grading likelihood (e.g "Estimated: PSA 8-9")
+**Grading estimator (Manual input)** - User manually assesses: centering, whitening, scratches, corners - each scored (e.g., yes/no or 0-2 scale)
 
 **Interface (CLI or Streamlit)** - Simple UI to: view cards, see ROI, estimate grades, navigate collection
 
 ## ✨ Nice-to-Have Features (Stretch / Extended Goals)
 
-**Image-Based Grading Assist** - Upload front/back card images, simulate visual grading using basic rules or OpenCV
+**Image-Based Grading Assist (Prototype)** - Upload front/back card images, simulate visual grading using basic rules or OpenCV
 
 **Dashboards & Reports** - ROI over time chart (Matplotlib / plotly), value breakdown per set or grade, export collection report as PDF or CSV
 
-**API Intergration** - Live value lookup via: eBay sold listings, TCGPlayer API, compare PSA 9 vs PSA 10 price estimates
+**API Intergration** - Live value lookup via: eBay sold listings, TCGPlayer API, compare PSA 9 vs PSA 10 price estimates - fallback intergration via manual price entry or CSV import
 
-**Notifications & Insights** - Alert if a card spikes in value, recommend "sell" or "grade" actions based on ROI thresholds
+**Notifications & Insights** - Alert if a card spikes in value, recommend "sell" or "grade" actions based on ROI thresholds configurable by the user (e.g., alert i ROI > 50%)
 
 **User Profiles** - Save/load different collections, add basic login/auth for multiple users (stretch)
 
@@ -66,4 +66,11 @@ The development of PokePort aims to alleviate these problems.
 - Build a basic Streamlit UI to make the tool usable and presentable
 - Create clean commit messages, manage issues, and reflect in dev logs
 - Use data visualization to show investment trends and grading performance
+
+## ⚠️ Potential Risks & Challenges 
+- Time contraints (life/work/etc) → stick to MVP milestones; treat stretch goals
+- Motivation dips → maintain a dev log and focus on why I started this project 
+- API rate limits or lack of free access → fallback to manual price entry or mock data 
+- Difficulty with image grading logic → simulate grading with manual inputs first 
+- SQLite or Streamlit bigs I can't fix alone → ask for help, document blockers, try alternative tools
 
