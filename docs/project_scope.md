@@ -40,9 +40,9 @@ The development of PokePort aims to alleviate these problems.
 
 **Dashboards & Reports** - ROI over time chart (Matplotlib / plotly), value breakdown per set or grade, export collection report as PDF or CSV
 
-**API Intergration** - Live value lookup via: eBay sold listings, TCGPlayer API, compare PSA 9 vs PSA 10 price estimates - fallback intergration via manual price entry or CSV import
+**API Intergration** - Live value lookup via: eBay sold listings, TCGPlayer API, compare PSA 9 vs PSA 10 price estimates - fallback integration via manual price entry or CSV import
 
-**Notifications & Insights** - Alert if a card spikes in value, recommend "sell" or "grade" actions based on ROI thresholds configurable by the user (e.g., alert i ROI > 50%)
+**Notifications & Insights** - Alert if a card spikes in value, recommend "sell" or "grade" actions based on ROI thresholds configurable by the user (e.g., alert if ROI > 50%)
 
 **User Profiles** - Save/load different collections, add basic login/auth for multiple users (stretch)
 
@@ -72,5 +72,5 @@ The development of PokePort aims to alleviate these problems.
 - Motivation dips → maintain a dev log and focus on why I started this project 
 - API rate limits or lack of free access → fallback to manual price entry or mock data 
 - Difficulty with image grading logic → simulate grading with manual inputs first 
-- SQLite or Streamlit bigs I can't fix alone → ask for help, document blockers, try alternative tools
+- SQLite or Streamlit bugs I can't fix alone → ask for help, document blockers, try alternative tools
 
