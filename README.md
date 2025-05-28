@@ -1,16 +1,16 @@
-# 🧠 PokePort
+#  PokePort
 
 A Pokémon Card Investment Tracker + Grading Estimator — built as a hands-on learning project to develop real junior developer skills.
 
 
 
-## 🎯 What Is PokePort?
+##  What Is PokePort?
 
 **PokePort** is a free, open-source Pokémon TCG tracker that helps collectors organize their cards, estimate their grading outcomes, and understand the value of their investments. It’s built from scratch as a hands-on junior developer project to sharpen real-world Python skills and deliver something genuinely useful to the community.
 
 
 
-## 🚀 MVP Features
+##  MVP Features
 
 PokePort’s first version will include:
 
@@ -22,7 +22,7 @@ PokePort’s first version will include:
 
 
 
-## 📈 Stretch Goals (Future)
+##  Stretch Goals (Future)
 
 - Image-based grading assist (basic logic or AI)
 - Market price tracking from external APIs
@@ -32,7 +32,7 @@ PokePort’s first version will include:
 
 
 
-## 🔧 Technologies
+##  Technologies
 
 - Python 3
 - SQLite (or JSON)
@@ -41,7 +41,7 @@ PokePort’s first version will include:
 
 
 
-## 🧪 Why This Project Exists
+##  Why This Project Exists
 
 This project is part of a personal learning journey to:
 
@@ -52,7 +52,7 @@ This project is part of a personal learning journey to:
 
 
 
-## 📁 Project Structure
+##  Project Structure
 
 ```markdown
 pokeport/
@@ -64,7 +64,7 @@ pokeport/
 ```
 A full breakdown of the project folder structure, along with file placeholders can be found [here](./docs/project_scope.md)
 
-## ⚙️ Getting Started (Coming Soon)
+## ⚙ Getting Started (Coming Soon)
 
 Once the CLI or Streamlit version is operational, this section will include setup instructions. For now:
 
@@ -72,10 +72,10 @@ Once the CLI or Streamlit version is operational, this section will include setu
 - Clone the repo and run scripts from `interface/cli.py` (once available)
 
 
-## 📓 Dev Log
+##  Dev Log
 
 All key development milestones and learning reflections are tracked in [dev_log.md](./docs/dev_log.md)
 
-## 🤝 Contributing 
+##  Contributing 
 
 > This is currently a solo project, but open to feedback, ideas, and collaboration once the MVP is stable. 
