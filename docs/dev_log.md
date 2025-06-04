@@ -1,3 +1,21 @@
+## 🗓️ [Session Date: YYYY-MM-DD]  
+### ⏱ Duration:  
+> *(Add your new session entries below this line — copy/paste this block each time you code)*
+
+### ✅ What I Worked On
+
+### 💡 Why I Worked on This
+
+### 🔍 What I Learned / Practiced
+
+### 🤯 What Was Challenging
+
+### 🧠 Key Insight or “Aha!” Moment
+
+### 🔄 Next Step / Todo for Next Session
+
+### 🔗 Git Commit(s)
+
 # Dev Log - PokePort    
 > A session-based developer log capturing progress, learning, blockers, and insights throughout the build of PokePort: a Pokémon Card Investment Tracker + Grading Estimator.
 
