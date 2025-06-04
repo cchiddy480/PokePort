@@ -1,6 +1,5 @@
 ## 🗓️ [Session Date: YYYY-MM-DD]  
 ### ⏱ Duration:  
-> *(Add your new session entries below this line — copy/paste this block each time you code)*
 
 ### ✅ What I Worked On
 
