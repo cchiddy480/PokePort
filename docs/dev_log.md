@@ -1,5 +1,8 @@
-## 🗓️ [Session Date: YYYY-MM-DD]  
-### ⏱ Duration:  
+# Dev Log - PokePort    
+> A session-based developer log capturing progress, learning, blockers, and insights throughout the build of PokePort: a Pokémon Card Investment Tracker + Grading Estimator.
+
+## 🗓️ [Session Date: DD-MM-YYYY]  
+### ⏱ Duration: 
 
 ### ✅ What I Worked On
 
@@ -15,10 +18,37 @@
 
 ### 🔗 Git Commit(s)
 
-# Dev Log - PokePort    
-> A session-based developer log capturing progress, learning, blockers, and insights throughout the build of PokePort: a Pokémon Card Investment Tracker + Grading Estimator.
+---
+## 🗓️ [Session Date: 11-06-2025]  
+### ⏱ Duration: 2 Hours 
 
+### ✅ What I Worked On
+- Developing the user stories and edge cases for the PokePort project
+- Decided on a storage format for the PokePort database 
+- Designed the initial database schema 
 
+### 💡 Why I Worked on This
+- Clear user stories will let me know what to define as core functionality 
+- By deciding on a storage format for the PokePort data, I can proceed with developing core functions to
+  obtain that data. This also open a leaning stream for me to further enhance my knowledge in SQLite. 
+
+### 🔍 What I Learned / Practiced
+- I learned the importance of clear, thought out user stories and how the are used to decide core functionality.
+- I've also began learning the basics of database design and SQLite.  
+
+### 🤯 What Was Challenging
+I found it challenging to trust in what I had wrote in my documentation and designs as being "correct" or "suitable". As I am not in industry, the documentation I am writing is a first, leaving me "is this correct?" or "should it look like this?". 
+
+### 🧠 Key Insight or “Aha!” Moment
+- The importance of user stories to help break down core functionality, ensuring focus on core MVP development.
+
+### 🔄 Next Step / Todo for Next Session
+- Research SQLite basics within Python
+- Create `storage.py` file
+- Write code that: Connect to SQLite file, creates the table, uses the schema design
+
+### 🔗 Git Commit(s)
+---
 ## Week 1 Recap - Project Setup & Planning 
 ### Duration: Approx. 5-10 hours (spread across multiple sessions)
 
