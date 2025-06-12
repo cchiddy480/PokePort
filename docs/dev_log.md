@@ -19,6 +19,41 @@
 ### 🔗 Git Commit(s)
 
 ---
+
+## 🗓️ [Session Date: 12-06-2025]  
+### ⏱ Duration: 1 x 1.5 Hours 1 x 3 Hours
+
+### ✅ What I Worked On
+- SQL Basics
+- Using SQLite in Python
+- Troubleshooting import errors
+
+### 💡 Why I Worked on This
+As this current project relies on using data stored within a database for our card collection, an understanding of how to create, use and manipulate a database is necessary. I needed to setup how card information would be stored and couldn't do that until I first knew the "how to" of SQLite.
+
+### 🔍 What I Learned / Practiced
+- Basic SQL syntax (database creation, table creation, adding and manipulating data)
+- How to use SQLite in Python (connecting to a database, initializing a cursor for command execution, creating a table)
+- Using `sqlite3.connect()` inside a context manager, ensuring database connection is closed properly
+- How to import function across directories within a project successfully 
+- That `__init__.py` needs to be within the directory you want to import from , if importing from another directory 
+
+### 🤯 What Was Challenging
+Remembering SQL syntax was a struggle, however this is expected as I have no prior experience with SQL and the initial learning curve is expected to be a little steep. By the time I developed the function to initialize the data base using sqlite some of the syntax started to sink into my memory allowing me to write the code faster. As I use SQL and SQLite more often the syntax will come to me more promptly. 
+
+The troubleshooting of importing across directories proved to be challenging, causing me around an hour of trying to debug what what going wrong with testing the `init_db()` in `cli.py`. After reviewing several solutions and tinkering with the line of import code I managed to resolve the issue and strengthen my understanding of why is wasn't working and what to do in the future - ultimately where I was trying to run the code within the project directory was the fault and using `python -m interface.cli` in the root of the directory is what saved me and allowed the database file to initialize.  
+
+### 🧠 Key Insight or “Aha!” Moment
+- Understanding that the cursor acts a 'translator' of sorts, executing SQL commands
+- When I understood why I couldn't run `cli.py` and that I needed to be within the root of the directory within the terminal to run `python -m interface.cli` and get the `init_db()` function to work 
+
+### 🔄 Next Step / Todo for Next Session
+- Begin build of first storage function `add_card()`
+
+### 🔗 Git Commit(s)
+
+---
+
 ## 🗓️ [Session Date: 11-06-2025]  
 ### ⏱ Duration: 2 Hours 
 
@@ -48,7 +83,9 @@ I found it challenging to trust in what I had wrote in my documentation and desi
 - Write code that: Connect to SQLite file, creates the table, uses the schema design
 
 ### 🔗 Git Commit(s)
+
 ---
+
 ## Week 1 Recap - Project Setup & Planning 
 ### Duration: Approx. 5-10 hours (spread across multiple sessions)
 
