@@ -22,5 +22,5 @@ def init_db():
                        grading_score REAL,
                        image_url TEXT) ''')
         
-        print("Database initialized and tables created.")
+        print("Database initialized and table created.")
 
