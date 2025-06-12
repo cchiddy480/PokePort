@@ -15,7 +15,7 @@ def init_db():
                        CREATE TABLE IF NOT EXISTS pokemon (
                        id INTEGER PRIMARY KEY AUTOINCREMENT,
                        name TEXT NOT NULL,
-                       set TEXT NOT NULL,
+                       set_name TEXT NOT NULL,
                        rarity TEXT NOT NULL,
                        purchase_price REAL,
                        market_value REAL,
@@ -23,4 +23,6 @@ def init_db():
                        image_url TEXT) ''')
         
         print("Database initialized and table created.")
+
+
 
