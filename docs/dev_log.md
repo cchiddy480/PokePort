@@ -21,6 +21,43 @@
 ---
 
 ## 🗓️ [Session Date: 12-06-2025]  
+### ⏱ Duration: ~4-5 Hours (multiple focused sessions)
+
+### ✅ What I Worked On
+- Implemented a PSA-style grading estimator (centering, corners, edges, surface)
+- Added a simple CLI menu to demo the grading estimator interactively
+- Practiced writing code and comments that are beginner-friendly and future-me friendly
+
+### 💡 Why I Worked on This
+- Adding the grading estimator is a big step toward the MVP and helps me understand how grading logic works in practice
+- Integrating features into the CLI is a great way to see things working and build confidence
+
+### 🔍 What I Learned / Practiced
+- How to write clear, honest comments that explain not just what the code does, but why it's there and what I'm still figuring out
+- How to use branching to keep code and documentation changes organized
+- The basics of PSA grading criteria and how to turn them into a simple Python function
+- How to build a basic CLI menu with user input and friendly prompts
+
+### 🤯 What Was Challenging
+- Making sure comments are helpful but not overwhelming (finding the right balance)
+- Keeping the CLI simple and not over-engineering at this stage
+- Choosing what to work on
+
+### 🧠 Key Insight or “Aha!” Moment
+- My code and comments are for me first—future-me will thank present-me for being honest and clear!
+- Even a basic CLI can make a project feel "real" and boost motivation
+- It's okay to leave TODOs and notes about what I want to learn next
+
+### 🔄 Next Step / Todo for Next Session
+- Expand the CLI to support adding/viewing/updating cards
+- Add tests for the grading estimator and CLI logic
+- Start integrating ROI calculations and value tracking
+
+### 🔗 Git Commit(s)
+
+---
+
+## 🗓️ [Session Date: 12-06-2025]  
 ### ⏱ Duration: 1 x 1.5 Hours 1 x 3 Hours
 
 ### ✅ What I Worked On
